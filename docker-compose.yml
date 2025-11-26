@@ -14,6 +14,7 @@ services:
       - N8N_BASIC_AUTH_PASSWORD=gogosin0
       - YOUTUBE_API_KEY=AIzaSyDrLa0FaHc3r2NNQm_QBoXTw3iM4dxEANo
       - NODE_FUNCTION_ALLOW_EXTERNAL=axios,node-fetch,iso8601-duration
+      - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
       # Add more variables as needed
       # - CUSTOM_VAR=value
     volumes:
