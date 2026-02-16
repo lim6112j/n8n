@@ -1,5 +1,5 @@
 .DS_Store
 n8n_data/nodes/node_modules/
 n8n_data/*.log
-n8n_data/*.sqlite
+n8n_data/database.sqlite
 
