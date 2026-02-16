@@ -1,3 +1,5 @@
 .DS_Store
-n8n_data/nodes/node_modules/@brave/n8n-nodes-brave-search
+n8n_data/nodes/node_modules/
 n8n_data/*.log
+n8n_data/*.sqlite
+
