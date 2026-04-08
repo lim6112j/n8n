@@ -16,7 +16,7 @@ services:
       - NODE_FUNCTION_ALLOW_EXTERNAL=axios,node-fetch,iso8601-duration,langfuse-langchain,langchain,@langchain/core
       - N8N_NODE_MODULES_INCLUDE_LIST=langfuse-langchain,langchain,@langchain/core
       - N8N_BLOCK_ENV_ACCESS_IN_NODE=false
-      - WEBHOOK_URL=https://draven-reparative-subfestively.ngrok-free.dev
+      # - WEBHOOK_URL=https://draven-reparative-subfestively.ngrok-free.dev
       # Add more variables as needed
       # - CUSTOM_VAR=value
     volumes:
